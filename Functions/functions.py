@@ -27,7 +27,7 @@ def modulus(n1, n2):
     return mod
 
 
-# Accepting input from user
+# Accepting input from users
 num1 = int(input("Enter number 1 >> "))
 num2 = int(input("Enter number 2 >> "))
 
