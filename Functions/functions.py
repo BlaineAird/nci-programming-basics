@@ -15,18 +15,19 @@ def multiply(n1, n2):
     return mul
 
 def divide(n1, n2):
-    try:
-        div = n1 / n2
+    try: # try - except used to handle exceptions
+        div = n1 / n2 # if n2 is 0, exception is caught
     except ZeroDivisionError: return f"Not possible division by {n2}"
     return div
 
 def modulus(n1, n2):
-    try:
-        mod = n1 % n2
+    try: # try - except used to handle exceptions
+        mod = n1 % n2 # if n2 is 0, exception is caught
     except ZeroDivisionError: return f"Not possible division by {n2}"
     return mod
 
 
+# Accepting input from user
 num1 = int(input("Enter number 1 >> "))
 num2 = int(input("Enter number 2 >> "))
 
